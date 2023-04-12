@@ -168,7 +168,7 @@ output.elasticsearch:
 
 ##  protocol: "https"
 
-##  api_key: "HdpiZ4cBMs_TmXE_XVyc:kqvHVZAVTFSCNpzb4Tby_A"
+##  api_key: "MY_ID:MY_KEY"
 
   # Optional SSL. By default is off.
   # List of root certificates for HTTPS server verifications
@@ -182,7 +182,7 @@ output.elasticsearch:
 
 ##  ssl:
 ##    enabled: true
-##    ca_trusted_fingerprint: "6E341ED8A80992B98E20413BEC8C36B8AA0319F71006B6F50F2EF91EB1D5E830"
+##    ca_trusted_fingerprint: "MY_CA_FINGERPRINT"
 
 # ================================= Processors =================================
 processors:
