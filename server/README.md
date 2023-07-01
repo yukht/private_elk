@@ -11,3 +11,10 @@ auditctl -a exit,always -F arch=b64 -F uid=0 -S execve -k auditcmd
 auditctl -l
 ```
 >-a always,exit -F arch=b64 -S execve -F uid=0 -F key=auditcmd
+
+Logstash
+---
+
+Конфигурацию logstash_beats.conf разместить в директории
+
+/etc/logstash/conf.d
